@@ -14,7 +14,7 @@ Projeto proposto pelo curso de Python Developer da dio.me, vou publicar aqui com
 
 ## Modelo de código:
 
-'''menu = """
+menu = """
 
 [d] Depositar
 [s] Sacar
@@ -30,7 +30,6 @@ numero_saques = 0
 LIMITE_SAQUES = 3
 
 while True:
-
     opcao = input(menu)
 
     if opcao == "d":
@@ -79,4 +78,4 @@ while True:
         break
 
     else:
-        print("Operação inválida, por favor selecione novamente a operação desejada.")'''
+        print("Operação inválida, por favor selecione novamente a operação desejada.")
